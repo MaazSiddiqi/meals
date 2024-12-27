@@ -1,29 +1,27 @@
-# Create T3 App
+# Meals
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+_A portal for popular dotfiles and dotfile snippets._
 
-## What's next? How do I make an app with this?
+## About the project
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+The goal of the project is to build a convenient way of browsing, building, and sharing dotfiles.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+Currently, my experience has been very manual and it would be very nice to have place to see "popular" snippets of configurations by the community. Much like awesome lists, but in a web interface. It would be really cool to have a way of just "piecing" together configurations from different sources and exporting it to your own dotfiles.
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+I recently got into ricing, and I think a hub like this would be very useful for new users to find and share configurations.
 
-## Learn More
+That's certainly an ambitious goal, and so I'm starting small with just browsing **neovim** configurations and snippets.
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+### Tech Stack
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+- Next.js
+- Tailwind
+- tRPC
+- Drizzle
+- shadcn/ui
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+## Contributing
 
-## How do I deploy this?
+I'm not sure how I want to handle contributions yet, but I would love help! I'm building in a nextjs app, just because that's what I'm familiar with. I'm just building an mvp and will figure out how to formally handle contributions later.
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Feel free to open an issue or a pr if you'd like to help!
